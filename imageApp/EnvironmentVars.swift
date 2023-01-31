@@ -7,6 +7,8 @@
 
 import Foundation
 
+// TODO: Add .xcconfig to the gitignore file, It shouldn't be saved in github
+// But for now it is added for simplicity
 private struct EnvironmentKeys {
     static let apiBaseURL = "ApiBaseURL"
     static let apiKey = "ApiKey"
